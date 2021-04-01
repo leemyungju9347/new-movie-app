@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	/* height: 100vh; */
+	background-color: #000;
+	color: #fff;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	/* background-color: #037B94; */
+	background-color: #0E0F42;
+	background-color: #3A315E;
+	background-color: #1f1c2a;
+}
+
+h1{font-weight: lighter;}
+h1, h2, h3, h4, h5, h6 {
+	/* font-size:1em; */
+	font-family: 'Staatliches', cursive;
+	font-family: 'Cafe24Ohsquare';
+}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, 
+thead, tbody, tfoot, tr, td, caption,ul {
+	margin:0;
+	padding:0;
+}
+
+input,
+select,
+textarea {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	resize: none;
+}
+
+ul,li {
+    list-style: none;
+}
+
+button,input {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: bold;
+	border:transparent;
+	background-color: transparent;
+	color: #fff;
+}
+
+button {
+	font-family: inherit;
+	font-size: 90%;
+	margin: 0;
+	cursor: pointer;
+	padding: 0;
+}
+
+button:focus,
+input:focus,
+select:focus {
+	outline: none;
+	outline-offset:unset;
+}
+
+/* scroll */
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background-color: #2c2c2c;
+  border-radius: 9px;
+}
+*::-webkit-scrollbar-thumb {
+	border-radius: 9px;
+	width: auto;
+    background-color: #bdbdbd6e;
+    /* background-color: #727272; */
+}
+*::-webkit-scrollbar-button {
+  /* width: 0;
+  height: 0; */
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
